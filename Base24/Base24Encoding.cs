@@ -32,10 +32,6 @@ namespace Base24
             var alphabetLength = (uint)_alphabet.Length;
             var encodedDataLength = (data.Length / 4) * 7; // Same as data.Length * 1.75 (but with integers only)
 
-            // The data length must be multiple of 32 bits. There is no padding mechanism in the encoder.
-            if (data.Length % 4 != 0)
-                throw new ArgumentException("The data length must be multiple of 4 bytes (32 bits).");
-
             StringBuilder sb = new StringBuilder(encodedDataLength);
             Span<char> subResult = stackalloc char[7];
 
