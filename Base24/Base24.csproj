@@ -2,8 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>dotnet_base24</RootNamespace>
+    <RootNamespace>Base24</RootNamespace>
 
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Base24</PackageId>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageDescription>A base24 implementation for .NET</PackageDescription>
+    <RepositoryUrl>https://github.com/nikeee/dotnet-base24</RepositoryUrl>
+    <Authors>Niklas Mollenhauer</Authors>
+
+    <PackageTags>base24;encoding;binary-to-text;human readable</PackageTags>
   </PropertyGroup>
 </Project>
