@@ -4,7 +4,7 @@ A [base24](https://www.kuon.ch/post/2020-02-27-base24/) implementation for .NET 
 
 ## Installation
 ```shell
-dotnet add package Base24 --version 0.1.0
+dotnet add package Base24
 ```
 
 ## Usage
