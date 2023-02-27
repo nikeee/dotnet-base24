@@ -9,7 +9,7 @@
 
   <PropertyGroup>
     <PackageId>Base24</PackageId>
-    <Version>0.2.0</Version>
+    <Version>1.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>A base24 implementation for .NET</PackageDescription>
     <RepositoryUrl>https://github.com/nikeee/dotnet-base24</RepositoryUrl>
