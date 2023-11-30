@@ -5,6 +5,7 @@
     <RootNamespace>Base24</RootNamespace>
 
     <Nullable>enable</Nullable>
+    <IsAotCompatible>true</IsAotCompatible>
   </PropertyGroup>
 
   <PropertyGroup>
