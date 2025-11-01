@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.ILLink.Tasks" Version="8.0.20" />
+    <PackageReference Include="Microsoft.NET.ILLink.Tasks" Version="8.0.21" />
     <ProjectReference Include="..\Base24\Base24.csproj" />
   </ItemGroup>
 
